@@ -33,7 +33,7 @@
       {
         "fsPath": ".",
         "selfContained": true,
-        "name": "docs"
+        "name": "notes"
       }
     ],
     "journal": {
@@ -128,7 +128,7 @@
     "enableTaskNotes": true,
     "enablePrettyLinks": true,
     "searchMode": "search",
-    "siteUrl": "localhost:3000",
+    "siteUrl": "https://mattjclay.github.io/wiki/",
     "siteFaviconPath": "favicon.ico",
     "siteIndex": "root"
   }
