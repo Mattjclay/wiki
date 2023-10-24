@@ -1,0 +1,45 @@
+<h1 id="crypto">Crypto<a aria-hidden="true" class="anchor-heading icon-link" href="#crypto"></a></h1>
+<p><a class="color-tag" style="--tag-color: #01f9c6;" href="/notes/gvj59de56dyf7t8m3rix4pv">Back to Flags</a></p>
+<h2 id="hexoding">Hexoding<a aria-hidden="true" class="anchor-heading icon-link" href="#hexoding"></a></h2>
+<p></p><p></p><div class="portal-container">
+<div class="portal-head">
+<div class="portal-backlink">
+<div class="portal-title">From <span class="portal-text-title">Hexoding</span></div>
+<a href="/notes/gjeshix9oorf5a9p9rd4nqc" class="portal-arrow">Go to text <span class="right-arrow">→</span></a>
+</div>
+</div>
+<div id="portal-parent-anchor" class="portal-parent" markdown="1">
+<div class="portal-parent-fader-top"></div>
+<div class="portal-parent-fader-bottom"></div><h2 id="solution-code">Solution Code<a aria-hidden="true" class="anchor-heading icon-link" href="#solution-code"></a></h2>
+<p>Create a script and run it in the same directory as the <strong>output.txt</strong> file from the challenge files. Your flag will be printed to the terminal and to a file called <strong>flag.txt</strong></p>
+<pre class="language-python"><code class="language-python"><span class="token keyword">import</span> base64
+
+
+<span class="token keyword">def</span> <span class="token function">decode_hex</span><span class="token punctuation">(</span>string_to_decode<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> <span class="token builtin">str</span><span class="token punctuation">(</span><span class="token builtin">bytes</span><span class="token punctuation">.</span>fromhex<span class="token punctuation">(</span>string_to_decode<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'utf-8'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">def</span> <span class="token function">decode_base64</span><span class="token punctuation">(</span>string_to_decode<span class="token punctuation">)</span><span class="token punctuation">:</span>
+    <span class="token keyword">return</span> <span class="token builtin">str</span><span class="token punctuation">(</span>base64<span class="token punctuation">.</span>b64decode<span class="token punctuation">(</span>string_to_decode<span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token string">'utf-8'</span><span class="token punctuation">)</span>
+
+<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'./output.txt'</span><span class="token punctuation">,</span> <span class="token string">'r'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> <span class="token builtin">file</span><span class="token punctuation">:</span>
+    flag_result <span class="token operator">=</span> <span class="token string">""</span>
+    <span class="token keyword">try</span><span class="token punctuation">:</span>
+        <span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'./flag.txt'</span><span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> out_file<span class="token punctuation">:</span>
+            flag_result <span class="token operator">+=</span> decode_hex<span class="token punctuation">(</span><span class="token builtin">file</span><span class="token punctuation">.</span>readline<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+            flag_result <span class="token operator">+=</span> decode_base64<span class="token punctuation">(</span><span class="token builtin">file</span><span class="token punctuation">.</span>readline<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+            out_file<span class="token punctuation">.</span>write<span class="token punctuation">(</span>flag_result<span class="token punctuation">)</span>
+            <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string-interpolation"><span class="token string">f"File flag.txt created with your flag in it! \n</span><span class="token interpolation"><span class="token punctuation">{</span>flag_result<span class="token punctuation">}</span></span><span class="token string">"</span></span><span class="token punctuation">)</span>
+
+    <span class="token keyword">except</span><span class="token punctuation">:</span>
+        <span class="token keyword">pass</span>
+
+</code></pre></div></div><p></p><p></p>
+<h3 id="flag">Flag<a aria-hidden="true" class="anchor-heading icon-link" href="#flag"></a></h3>
+<p><a href="/notes/gjeshix9oorf5a9p9rd4nqc#solution-code">Go to Writeup for Hexoding</a>
+HTB{kn0w1ng_h0w_t0_1d3nt1fy_3nc0d1ng_sch3m3s_1s_cruc14l_f0r_a_crypt0gr4ph3r___4ls0_d0_n0t_c0nfus3_enc0d1ng_w1th_encryp510n!}</p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a class="color-tag" style="--tag-color: #01f9c6;" href="/notes/gvj59de56dyf7t8m3rix4pv">Flags</a></li>
+<li><a href="/notes/gjeshix9oorf5a9p9rd4nqc">Hexoding</a></li>
+</ul>

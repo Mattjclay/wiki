@@ -1,0 +1,144 @@
+{
+  "roots": [
+    {
+      "key": "nrnf46vpk4kfcq2zrc8e6za",
+      "title": "Brent",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "docs",
+      "children": [
+        {
+          "key": "fceog1ebriyj7acasx34fqa",
+          "title": "48Meatballss",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "docs",
+          "children": []
+        }
+      ]
+    },
+    {
+      "key": "q8ghl1mppzw4r8qtav6hqly",
+      "title": "CTF Write Ups",
+      "icon": null,
+      "hasTitleNumberOutlined": false,
+      "vaultName": "docs",
+      "children": [
+        {
+          "key": "kbo3rqpq3tg1nwibtkh07wg",
+          "title": "Domains",
+          "icon": null,
+          "hasTitleNumberOutlined": false,
+          "vaultName": "docs",
+          "children": [
+            {
+              "key": "z653tcwbhhvixywdz7urkj5",
+              "title": "Crypto",
+              "icon": null,
+              "hasTitleNumberOutlined": false,
+              "vaultName": "docs",
+              "children": [
+                {
+                  "key": "gjeshix9oorf5a9p9rd4nqc",
+                  "title": "Hexoding",
+                  "icon": null,
+                  "hasTitleNumberOutlined": false,
+                  "vaultName": "docs",
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "key": "gf3wiaxswf7duzds3bgyg5d",
+      "title": "Tags",
+      "icon": "numberOutlined",
+      "hasTitleNumberOutlined": false,
+      "vaultName": "docs",
+      "children": [
+        {
+          "key": "gvj59de56dyf7t8m3rix4pv",
+          "title": "Flags",
+          "icon": null,
+          "hasTitleNumberOutlined": true,
+          "vaultName": "docs",
+          "children": [
+            {
+              "key": "sivwz35gp2qcyi21o5xaeni",
+              "title": "Crypto",
+              "icon": null,
+              "hasTitleNumberOutlined": true,
+              "vaultName": "docs",
+              "children": []
+            },
+            {
+              "key": "juc5jep7viz4lz3698b93v9",
+              "title": "Forensics",
+              "icon": null,
+              "hasTitleNumberOutlined": true,
+              "vaultName": "docs",
+              "children": []
+            },
+            {
+              "key": "9q5jc0huohsyclbegei70wu",
+              "title": "PWN",
+              "icon": null,
+              "hasTitleNumberOutlined": true,
+              "vaultName": "docs",
+              "children": []
+            },
+            {
+              "key": "2ndy8kzeposl6lia32qb4la",
+              "title": "Reversing",
+              "icon": null,
+              "hasTitleNumberOutlined": true,
+              "vaultName": "docs",
+              "children": []
+            },
+            {
+              "key": "2zo89td5kdbavscn9npskle",
+              "title": "Web",
+              "icon": null,
+              "hasTitleNumberOutlined": true,
+              "vaultName": "docs",
+              "children": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "child2parent": {
+    "nrnf46vpk4kfcq2zrc8e6za": null,
+    "fceog1ebriyj7acasx34fqa": "nrnf46vpk4kfcq2zrc8e6za",
+    "q8ghl1mppzw4r8qtav6hqly": null,
+    "kbo3rqpq3tg1nwibtkh07wg": "q8ghl1mppzw4r8qtav6hqly",
+    "z653tcwbhhvixywdz7urkj5": "kbo3rqpq3tg1nwibtkh07wg",
+    "gjeshix9oorf5a9p9rd4nqc": "z653tcwbhhvixywdz7urkj5",
+    "gf3wiaxswf7duzds3bgyg5d": null,
+    "gvj59de56dyf7t8m3rix4pv": "gf3wiaxswf7duzds3bgyg5d",
+    "sivwz35gp2qcyi21o5xaeni": "gvj59de56dyf7t8m3rix4pv",
+    "juc5jep7viz4lz3698b93v9": "gvj59de56dyf7t8m3rix4pv",
+    "9q5jc0huohsyclbegei70wu": "gvj59de56dyf7t8m3rix4pv",
+    "2ndy8kzeposl6lia32qb4la": "gvj59de56dyf7t8m3rix4pv",
+    "2zo89td5kdbavscn9npskle": "gvj59de56dyf7t8m3rix4pv"
+  },
+  "notesLabelById": {
+    "nrnf46vpk4kfcq2zrc8e6za": "Brent",
+    "fceog1ebriyj7acasx34fqa": "48Meatballss",
+    "q8ghl1mppzw4r8qtav6hqly": "CTF Write Ups",
+    "kbo3rqpq3tg1nwibtkh07wg": "Domains",
+    "z653tcwbhhvixywdz7urkj5": "Crypto",
+    "gjeshix9oorf5a9p9rd4nqc": "Hexoding",
+    "gf3wiaxswf7duzds3bgyg5d": "Tags",
+    "gvj59de56dyf7t8m3rix4pv": "Flags",
+    "sivwz35gp2qcyi21o5xaeni": "Crypto",
+    "juc5jep7viz4lz3698b93v9": "Forensics",
+    "9q5jc0huohsyclbegei70wu": "PWN",
+    "2ndy8kzeposl6lia32qb4la": "Reversing",
+    "2zo89td5kdbavscn9npskle": "Web"
+  }
+}
